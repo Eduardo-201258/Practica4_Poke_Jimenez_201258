@@ -1,10 +1,13 @@
 import React from 'react';
 
 
-const Navbar = () => {
+const Navbar = (loadMore) => {
     return(
         <div className="nav-bar">
-            <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png"/>
+            <ul>
+                <img width="150px" src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png"/>
+                <h1 align="center">POKEDEX {loadMore.length}</h1>
+            </ul>
         </div>
     );
 }

@@ -9,7 +9,7 @@ const AllPokemons = ({pokemonStats, allPokemons }) => {
         <div>
             <div className={style}>
                 <PokeInfo
-                    key={pokemonStats.id}
+                    id={pokemonStats.id}
                     name={pokemonStats.name}
                     img={pokemonStats.sprites.front_default}
                     type={pokemonStats.types[0].type.name}

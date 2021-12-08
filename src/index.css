@@ -15,7 +15,7 @@ code {
   background-color: rgb(148, 81, 81);
 }
 .ghost {
-  background-color: rgb(247, 247, 247);
+  background-color: rgb(126, 114, 114);
 }
 .electric {
   background-color: rgb(255, 255, 161);
@@ -41,7 +41,12 @@ code {
 .water {
   background-color:#E0F1FD;
 }
-
+.ground {
+  background-color: #fd9c68;
+}
+.fighting {
+  background-color: #ff8080;
+}
 .app-contaner {
   display: flex;
   flex-direction: column;
@@ -74,6 +79,7 @@ code {
   min-width: 160px;
   text-align: center;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
+
 }
 h3 {
   margin-bottom: 0.2rem;
@@ -113,7 +119,6 @@ h3 {
   min-width: 50%;
   margin-top: 1rem;
 }
-img { cursor: pointer;}
 button{
   background-color: rgba(255, 255, 255, 0.16);
   border: none;
@@ -124,4 +129,10 @@ button{
 }
 form{
   z-index: 99;
+}
+.nav-bar{
+  background-color: rgba(248, 253, 255, 0.73);
+  position: fixed;
+  top: 0rem;
+  padding: 0rem 60rem 0rem 60rem;
 }

@@ -1,6 +1,5 @@
 import React, {Fragment, useEffect, useState} from 'react'
 import AllPokemons from './components/AllPokemons'
-import PokeInfo from "./components/PokeInfo";
 import Navbar from "./components/NavBar";
 
 const App = () => {
@@ -32,7 +31,8 @@ const App = () => {
   return (
     <Fragment>
         <div className="app-contaner">
-            <Navbar />
+            <Navbar loadMore = {loadMore}/>
+            <br/> <br/> <br/> <br/> <br/> <br/> <br/>
             <div className="pokemon-container">
                 <div className="all-container">
                     {allPokemons.map( (pokemonStats, index) =>
