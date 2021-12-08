@@ -32,7 +32,7 @@ const App = () => {
     <Fragment>
         <div className="app-contaner">
             <Navbar loadMore = {loadMore}/>
-            <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+            <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
             <div className="pokemon-container">
                 <div className="all-container">
                     {allPokemons.map( (pokemonStats, index) =>
@@ -40,7 +40,6 @@ const App = () => {
                             key={pokemonStats.id}
                             pokemonStats={pokemonStats}
                             allPokemons={allPokemons}
-
                         />
                     )}
                 </div>
