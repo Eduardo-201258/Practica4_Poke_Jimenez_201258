@@ -12,17 +12,14 @@ const AllPokemons = ({pokemonStats, allPokemons }) => {
        <Fragment>
            <div className="desvanecer">
                <div className={style}>
-                   <button onClick={viewAbility}>
-                       <PokeInfo
-                           id={pokemonStats.id}
-                           name={pokemonStats.name}
-                           img={pokemonStats.sprites.front_default}
-                           type={pokemonStats.types[0].type.name}
-                           heigth={pokemonStats.height}
-                           weight={pokemonStats.weight}
-                       />
-                   </button>
-
+                   <PokeInfo
+                       id={pokemonStats.id}
+                       name={pokemonStats.name}
+                       img={pokemonStats.sprites.front_default}
+                       type={pokemonStats.types[0].type.name}
+                       heigth={pokemonStats.height}
+                       weight={pokemonStats.weight}
+                   />
                </div>
 
            </div>

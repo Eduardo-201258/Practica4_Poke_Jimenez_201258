@@ -1,7 +1,6 @@
 import React from 'react';
 
-
-const Navbar = (loadMore) => {
+const Navbar = () => {
     return(
         <div className="nav-bar">
             <ul>

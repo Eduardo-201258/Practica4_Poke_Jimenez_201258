@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  cursor: url(Resources/pikachu.cur), pointer;
 }
 
 code {
@@ -118,10 +119,6 @@ h3 {
   min-width: 50%;
   margin-top: 1rem;
 }
-button{
-  background-color: rgba(255, 255, 255, 0.16);
-  border: none;
-}
 .pokemon-information{
   z-index: 999;
   background-color: #e0a7f6;
@@ -138,12 +135,6 @@ pre{
   font-size: 9px;
 
 }
-img{
-  cursor: pointer; height: 100px;
-}
-button{
-  background-color: rgba(255, 255, 255, 0.16);
-}
 .desvanecer:hover {
   background-color: #fff5cb;
   opacity: 0.5;
@@ -151,4 +142,5 @@ button{
   -o-transition: opacity 800ms;
   -ms-transition: opacity 800ms;
   transition: opacity 800ms;
+  cursor: url(Resources/pokeball.cur), pointer;
 }

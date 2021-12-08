@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PokeInfo = ({id,name, type, img, heigth, weight}) => {
+const PokeInfo = ({id,name, type, img, heigth}) => {
    return(
        <div>
            <div className="number"><small>#0{id}</small></div>
